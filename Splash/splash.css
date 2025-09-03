@@ -1,0 +1,15 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(#A300FF, #1B002A);
+    overflow: hidden;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 20vw;
+}

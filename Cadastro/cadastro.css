@@ -1,0 +1,20 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(#A300FF, #1B002A);
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input{
+    padding: 8px;
+    margin: 10px;
+}
