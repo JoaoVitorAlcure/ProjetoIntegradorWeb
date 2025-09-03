@@ -6,6 +6,7 @@ body{
 
 h1{
     text-align: center;
+    color: white;
 }
 div{
     display: flex;
@@ -15,6 +16,16 @@ div{
 }
 
 input{
-    padding: 8px;
-    margin: 10px;
+    padding: 15px;
+    background-image: url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle);  
+    position: left;
+    padding-right: 100px;
+    margin: 2.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px 5vw;
+    border-radius: 50%;
 }
