@@ -4,28 +4,30 @@ body{
     overflow: hidden;
 }
 
-h1{
-    text-align: center;
-    color: white;
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.titulo{
+    color: #fff;
 }
 
-input{
-    padding: 15px;
-    background-image: url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle);  
-    position: left;
-    padding-right: 100px;
-    margin: 2.5%;
-    border: none;
-    border-radius: 10px;
-}
+.custom-input {
+    background: transparent !important;
+    color: #fff;
+    border: 1px solid #fff;
+  }
 
-button{
-    padding: 20px 5vw;
-    border-radius: 50%;
+.custom-input::placeholder { color: rgba(255,255,255,.7); }
+
+.custom-input:focus {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255,255,255,.2);
+}
+.form-icon-img {
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+}
+.position-relative i {
+    pointer-events: none;
+    color: #6c757d;
 }

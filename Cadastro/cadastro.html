@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AllService</title>
     <link rel="stylesheet" href="cadastro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>AllService</title>
 </head>
 <body>
-    <h1>Faça seu cadastro</h1>
-    <div>
-        <form action="">
-            <input type="text" name="nome" id="" placeholder="Nome de usuário"> <br>
-            <input type="email" name="email" id="" placeholder="Email"> <br>
-            <input type="number" name="cpf" id="cpf" placeholder="CPF"> <br>
-            <input type="date" name="data" id="" placeholder="Data de nascimento"> <br>
-            <input type="password" name="senha" id="" placeholder="Senha"> <br>
-            <input type="password" name="rsenha" id="" placeholder="Repita a senha"> <br>
-            <button type="submit">Continuar</button>
-        </form>
+    <h1 class="text-center my-4 titulo">Faça seu cadastro</h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="position-relative">
+                    <input type="text" class="form-control custom-input ps-5" placeholder="Teste">
+                    <img src="ic_person.svg" class="form-icon-img position-absolute top-50 start-0 translate-middle-y ms-3">
+                </div>
+                <button type="submit">Continuar</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
